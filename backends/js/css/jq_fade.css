@@ -1,0 +1,50 @@
+html {
+	min-height: 100.05%;
+}
+
+
+ul {
+	margin-bottom: 2em;
+}
+
+
+/* Listen */
+#wrapper {
+    margin:auto auto;
+    width:950px;
+    position: relative;
+    
+}
+
+#wrapper td {
+    font-size: 10px;
+    padding-right: 5px;
+}
+#news-wrapper {
+    margin: 0 auto;
+    width:500px; 
+    height:150px;  
+    background:  #000;
+}
+ul#news {
+	font-size: 14px;
+    font-family: arial,helvetica,verdana,tahoma;
+	padding: 0;
+	
+}
+ul#news li {
+    color:#FFF;
+}
+
+
+.fade{
+	margin-bottom: 2em;
+}
+
+.fade p{
+	margin-bottom: 2em;
+	text-align: center;
+	width: 100%;
+	background: #fff;
+}
+

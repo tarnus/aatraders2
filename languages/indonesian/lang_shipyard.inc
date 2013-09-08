@@ -1,0 +1,41 @@
+<?php
+$l_shipyard_title = "Galangan";
+$l_planet = "Planet";
+$l_ship_welcome = "Selamat Datang Planetary Anda galangan kapal. Saat ini kami menawarkan model-model ini untuk dijual.";
+$l_ship_class = "Kelas";
+$l_ship_properties = "Kelas Properties";
+$l_ship_current = "Saat ini";
+$l_ship_outstorage = "Keluar dari Storage";
+$l_ship_storagecost = "Biaya penyimpanan";
+$l_ship_storagewarn = "Setelah Anda mengambil Pioneer Anda dari gudang Anda akan longgar yang anda dikeluarkan atas kapal awal Anda kehancuran.";
+$l_ship_levels = "Tingkat Komponen Kapal";
+$l_ship_min = "Min";
+$l_ship_max = "Max";
+$l_ship_price = "Harga";
+$l_ship_turns = "Berubah untuk membangun";
+$l_ship_purchase = "Membeli";
+$l_ship_stored = "Disimpan";
+$l_ship_basehull = "Base Hull:";
+$l_ship_nostoreteamplanet = "Anda tidak dapat menyimpan sebuah kapal di tim planet.";
+
+$l_ship_averagemaxtech = "Maksimum rata-rata Tech Level:";
+$l_ship_averagenormaltech = "Normal rata Tech Level:";
+$l_ship_averagecurrenttech = "Rata-rata Current Tech Level:";
+$l_ship2_buytitle = "Membeli kapal baru";
+$l_ship2_storetitle = "Kapal Fasilitas Penyimpanan";
+$l_ship2_wrongclass = "Salah kelas kapal ditentukan";
+$l_ship2_buying = "Anda membeli:";
+$l_ship2_tradein = "Perdagangan Dalam:";
+$l_ship2_value = "Kapal saat ini Nilai:";
+$l_ship2_newvalue = "Kapal Baru Nilai:";
+$l_ship2_totalcost = "Total Biaya:";
+$l_ship2_nomoney = "Anda tidak memiliki cukup kredit untuk membeli kapal ini.";
+$l_ship2_purchase = "Membeli";
+$l_ship2_buynstore = "Buy New kapal dan menyimpan lama";
+$l_ship2_nomoney2 = "Anda tidak memiliki cukup kredit untuk menyelesaikan transaksi ini.";
+$l_ship2_paystorage = "Anda telah menghapus Anda dari penyimpanan kapal.";
+$l_ship2_turns = "Anda memerlukan paling sedikit [turns] bergantian untuk melakukan tindakan ini";
+$l_ship2_error = "Kesalahan internal. Tidak dapat menemukan kapal kelas.";
+$l_ship2_owned = "Anda telah memiliki kapal model ini.";
+$l_ship2_shipbought = "Anda baru saja membeli sebuah kapal baru!";
+?>

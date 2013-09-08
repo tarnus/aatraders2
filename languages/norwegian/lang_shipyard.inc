@@ -1,0 +1,41 @@
+<?php
+$l_shipyard_title = "Shipyard";
+$l_planet = "Planet";
+$l_ship_welcome = "Velkommen til din Planetary verftet. For tiden tilbyr vi disse modellene for salg.";
+$l_ship_class = "Klassifikasjon";
+$l_ship_properties = "Klasse Egenskaper";
+$l_ship_current = "Gjeldende";
+$l_ship_outstorage = "Kom deg ut av bagasje";
+$l_ship_storagecost = "Lagring Cost";
+$l_ship_storagewarn = "Når du tar din Pioneer ut av lagringsplass vil du miste den du ble utstedt ved den opprinnelige skipet ødeleggelse.";
+$l_ship_levels = "Ship Komponenter Levels";
+$l_ship_min = "Min";
+$l_ship_max = "Max";
+$l_ship_price = "Pris";
+$l_ship_turns = "Slår til å bygge";
+$l_ship_purchase = "Kjøp";
+$l_ship_stored = "Lagrede";
+$l_ship_basehull = "Base Hull:";
+$l_ship_nostoreteamplanet = "Du kan ikke lagre et skip på et lag planet.";
+
+$l_ship_averagemaxtech = "Gjennomsnittlig Maksimal Tech Level:";
+$l_ship_averagenormaltech = "Gjennomsnittlig Normal Tech Level:";
+$l_ship_averagecurrenttech = "Gjennomsnittlig Current Tech Level:";
+$l_ship2_buytitle = "Kjøpe et nytt skip";
+$l_ship2_storetitle = "Shipyard Storage Facility";
+$l_ship2_wrongclass = "Feil skip klassen spesifisert";
+$l_ship2_buying = "Du kjøper:";
+$l_ship2_tradein = "Trade In:";
+$l_ship2_value = "Nåværende Ship Verdi:";
+$l_ship2_newvalue = "Ny Ship Verdi:";
+$l_ship2_totalcost = "Totalkostnad:";
+$l_ship2_nomoney = "Du har ikke nok studiepoeng til å kjøpe dette skipet.";
+$l_ship2_purchase = "Kjøp";
+$l_ship2_buynstore = "Kjøpe nye skip og store gamle";
+$l_ship2_nomoney2 = "Du har ikke nok studiepoeng til å fullføre denne transaksjonen.";
+$l_ship2_paystorage = "Søket har fjernet et skip fra lagring.";
+$l_ship2_turns = "Du trenger minst [turns] svinger for å utføre denne handlingen";
+$l_ship2_error = "Intern feil. Kan ikke finne skipet klasse.";
+$l_ship2_owned = "Du eier allerede denne modellen av skipet.";
+$l_ship2_shipbought = "Du har nettopp kjøpt et nytt skip!";
+?>

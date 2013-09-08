@@ -1,0 +1,41 @@
+<?php
+$l_shipyard_title = "Værft";
+$l_planet                = "Planet";
+$l_ship_welcome = "Velkommen til din Planetary værft. Vi tilbyder i øjeblikket disse modeller til salg.";
+$l_ship_class = "Klasse";
+$l_ship_properties = "Klasse Egenskaber";
+$l_ship_current = "Nuværende";
+$l_ship_outstorage = "Kom ud af Storage";
+$l_ship_storagecost = "Lageromkostninger";
+$l_ship_storagewarn = "Når du tager din Pioneer ud af lagerplads du vil miste den, du er udstedt efter din første skib ødelæggelse.";
+$l_ship_levels = "Ship Komponenter Niveauer";
+$l_ship_min = "Min";
+$l_ship_max = "Max";
+$l_ship_price = "Pris";
+$l_ship_turns = "Skiftedes til at bygge";
+$l_ship_purchase = "Købe";
+$l_ship_stored = "Lagrede";
+$l_ship_basehull = "Base Hull:";
+$l_ship_nostoreteamplanet = "Du kan ikke gemme et skib på et hold planet.";
+
+$l_ship_averagemaxtech = "Gennemsnit Maksimum Tech Niveau:";
+$l_ship_averagenormaltech = "Gennemsnitlig Normal Tech Niveau:";
+$l_ship_averagecurrenttech = "Gennemsnitlig Current Tech Level:";
+$l_ship2_buytitle = "Købe et nyt skib";
+$l_ship2_storetitle = "Værft Storage Facility";
+$l_ship2_wrongclass = "Forkert skib klasse specificeret";
+$l_ship2_buying = "Du køber:";
+$l_ship2_tradein = "Handel I:";
+$l_ship2_value = "Nuværende Ship Værdi:";
+$l_ship2_newvalue = "Nyt skib Værdi:";
+$l_ship2_totalcost        = "Total Cost:";
+$l_ship2_nomoney = "Du har ikke nok kredit til at købe dette skib.";
+$l_ship2_purchase = "Købe";
+$l_ship2_buynstore = "Købe nye skibe og gemme gamle";
+$l_ship2_nomoney2 = "Du har ikke nok kredit for at gennemføre denne transaktion.";
+$l_ship2_paystorage = "Du har fjernet dit skib fra lageret.";
+$l_ship2_turns = "Du skal have mindst [turns] skiftedes til at udføre denne handling";
+$l_ship2_error = "Intern fejl. Kan ikke finde skibet klasse.";
+$l_ship2_owned = "Du allerede ejer denne model af skibet.";
+$l_ship2_shipbought = "Du har lige købt et nyt skib!";
+?>

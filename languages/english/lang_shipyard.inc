@@ -1,0 +1,41 @@
+<?php
+$l_shipyard_title        = "Shipyard";
+$l_planet                = "Planet";
+$l_ship_welcome = "Welcome to your Planetary shipyard. We currently offer these models for sale.";
+$l_ship_class = "Class";
+$l_ship_properties = "Class Properties";
+$l_ship_current = "Current";
+$l_ship_outstorage = "Get out of Storage";
+$l_ship_storagecost = "Storage Cost";
+$l_ship_storagewarn = "Once you take your Pioneer out of storage you will loose the one you were issued upon your initial ship destruction.";
+$l_ship_levels = "Ship Components Levels";
+$l_ship_min = "Min";
+$l_ship_max = "Max";
+$l_ship_price = "Price";
+$l_ship_turns = "Turns to build";
+$l_ship_purchase = "Purchase";
+$l_ship_stored = "Stored";
+$l_ship_basehull = "Base Hull:";
+$l_ship_nostoreteamplanet = "You cannot store a ship on a team planet.";
+
+$l_ship_averagemaxtech = "Average Maximum Tech Level:";
+$l_ship_averagenormaltech = "Average Normal Tech Level:";
+$l_ship_averagecurrenttech = "Average Current Tech Level:";
+$l_ship2_buytitle        = "Buying a new ship";
+$l_ship2_storetitle        = "Shipyard Storage Facility";
+$l_ship2_wrongclass        = "Wrong ship class specified";
+$l_ship2_buying        = "You are buying:";
+$l_ship2_tradein        = "Trade In:";
+$l_ship2_value        = "Current Ship Value:";
+$l_ship2_newvalue        = "New Ship Value:";
+$l_ship2_totalcost        = "Total Cost:";
+$l_ship2_nomoney        = "You do not have enough credits to buy this ship.";
+$l_ship2_purchase        = "Purchase";
+$l_ship2_buynstore        = "Buy New ship and store old one";
+$l_ship2_nomoney2        = "You do not have enough credits to complete this transaction.";
+$l_ship2_paystorage        = "Your have removed your ship from storage.";
+$l_ship2_turns        = "You need at least [turns] turns to perform this action";
+$l_ship2_error        = "Internal error. Cannot find ship class.";
+$l_ship2_owned        = "You already own this model of ship.";
+$l_ship2_shipbought        = "You have just bought a new ship!";
+?>

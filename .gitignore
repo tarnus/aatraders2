@@ -1,0 +1,13 @@
+# Ignore configuration files that may contain sensitive information.
+config/config.php
+config/config_master.php
+config/config_local*.php
+templates_c/*.tpl.php
+templates_c/*.txt
+templates_c/*.tmp
+support/log_data/*
+support/master_log_data/*
+support/variables*.php
+images/avatars/uploads/*.gif
+images/avatars/uploads/*.jpg
+

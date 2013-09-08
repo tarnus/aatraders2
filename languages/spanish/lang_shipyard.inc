@@ -1,0 +1,41 @@
+<?php
+$l_shipyard_title        = "Astillero Espacial";
+$l_planet                = "Planeta";
+$l_ship_welcome = "Bienvenido a su astillero Planetario. Actualmente ofrecemos estos modelos a la venta.";
+$l_ship_class = "Clase";
+$l_ship_properties = "Propiedades de clase";
+$l_ship_current = "Actual";
+$l_ship_outstorage = "¡Fuera de almacenamiento de";
+$l_ship_storagecost = "Costo de almacenamiento";
+$l_ship_storagewarn = "Una vez que usted toma su Pioneer de almacenamiento que perderá el que se expiden en el momento de su destrucción buque inicial.";
+$l_ship_levels = "Buque Componentes Niveles";
+$l_ship_min = "Min";
+$l_ship_max = "Número máximo de personas";
+$l_ship_price = "Precio";
+$l_ship_turns = "Vuelve a construir";
+$l_ship_purchase = "Compra";
+$l_ship_stored = "Almacenados";
+$l_ship_basehull = "Base del casco:";
+$l_ship_nostoreteamplanet = "No puede almacenar un barco en un planeta del equipo.";
+
+$l_ship_averagemaxtech = "Tech Media Máximo Nivel:";
+$l_ship_averagenormaltech = "Media normal Tech Nivel:";
+$l_ship_averagecurrenttech = "Promedio actual Tech Nivel:";
+$l_ship2_buytitle = "La compra de un nuevo buque";
+$l_ship2_storetitle = "Astillero Storage Facility";
+$l_ship2_wrongclass = "La clase de buques especificada es incorrecta";
+$l_ship2_buying = "Usted está comprando:";
+$l_ship2_tradein = "En el comercio:";
+$l_ship2_value = "Actual de buques de valor:";
+$l_ship2_newvalue = "Nuevo buque de valor:";
+$l_ship2_totalcost = "Costo total:";
+$l_ship2_nomoney = "Usted no tiene suficientes créditos para comprar esta nave.";
+$l_ship2_purchase = "Compra";
+$l_ship2_buynstore = "Comprar nuevo buque y uno viejo almacén";
+$l_ship2_nomoney2 = "Usted no tiene créditos suficientes para completar esta transacción.";
+$l_ship2_paystorage = "Su ha eliminado una nave de almacenamiento.";
+$l_ship2_turns = "Usted necesita por lo menos [turns] vuelve a realizar esta acción";
+$l_ship2_error = "Error interno. No se puede encontrar la clase de buques.";
+$l_ship2_owned = "Que ya posee este modelo de barco.";
+$l_ship2_shipbought = "Usted acaba de comprar un barco nuevo!";
+?>

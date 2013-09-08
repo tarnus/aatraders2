@@ -1,0 +1,424 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="expires" content="0">
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+<title>Window Simulation with wz_dragdrop.js</title>
+<link rel="stylesheet" type="text/css" href="../templates/windowed/player_window_positions/_window_positions.css">
+</head>
+<body bgcolor="#222222" background="chrome_screw_panel.jpg">
+<script type="text/javascript" src="wz_dragd.js"></script>
+  <textarea id="output" cols='70' rows='40'><empty></textarea>
+
+
+<div id="frame_player" class="frame_player" style="border:0px outset #ffffff;background:#52ACEA;visibility:hidden;"></div>
+<div id="titlebar_player" style="position:absolute; border-bottom-color: #FFFFFF;border-bottom-style: solid;border-bottom-width: thin; background:#4455aa;overflow:hidden;visibility:hidden;"><span style="position:relative;left:2px;top:0px;padding:0px;color:white;font-weight:bold;font-size:10px;font-family:Verdana,Geneva,sans-serif;">&nbsp;Player Information</span></div>
+	<div id="clientarea_player" style="position:absolute;border:1px inset #4455aa;color:white;background:black;overflow:auto;visibility:hidden;">
+		dummy text
+	</div>
+<img name="resizehandle_player" src="winresiz.gif" width="4" height="4" alt="" style="visibility:hidden;">
+<img name="resizebutton_player" src="button_up_outset.gif" width="12" height="10" alt="" style="visibility:hidden;">
+
+<div id="frame_cargo" class="frame_cargo" style="border:0px outset #ffffff;background:#52ACEA;visibility:hidden;"></div>
+<div id="titlebar_cargo" style="position:absolute; border-bottom-color: #FFFFFF;border-bottom-style: solid;border-bottom-width: thin; background:#4455aa;overflow:hidden;visibility:hidden;"><span style="position:relative;left:2px;top:0px;padding:0px;color:white;font-weight:bold;font-size:10px;font-family:Verdana,Geneva,sans-serif;">&nbsp;Ship Cargo</span></div>
+	<div id="clientarea_cargo" style="position:absolute;border:1px inset #4455aa;color:white;background:black;overflow:auto;visibility:hidden;">
+		dummy text
+	</div>
+<img name="resizehandle_cargo" src="winresiz.gif" width="4" height="4" alt="" style="visibility:hidden;">
+<img name="resizebutton_cargo" src="button_up_outset.gif" width="12" height="10" alt="" style="visibility:hidden;">
+
+<div id="frame_shoutbox" class="frame_shoutbox" style="border:0px outset #ffffff;background:#52ACEA;visibility:hidden;"></div>
+<div id="titlebar_shoutbox" style="position:absolute; border-bottom-color: #FFFFFF;border-bottom-style: solid;border-bottom-width: thin; background:#4455aa;overflow:hidden;visibility:hidden;"><span style="position:relative;left:2px;top:0px;padding:0px;color:white;font-weight:bold;font-size:10px;font-family:Verdana,Geneva,sans-serif;">&nbsp;Shoutbox</span></div>
+	<div id="clientarea_shoutbox" style="position:absolute;border:1px inset #4455aa;color:white;background:black;overflow:auto;visibility:hidden;">
+		dummy text
+	</div>
+<img name="resizehandle_shoutbox" src="winresiz.gif" width="4" height="4" alt="" style="visibility:hidden;">
+<img name="resizebutton_shoutbox" src="button_up_outset.gif" width="12" height="10" alt="" style="visibility:hidden;">
+
+<div id="frame_news" class="frame_news" style="border:0px outset #ffffff;background:#52ACEA;visibility:hidden;"></div>
+<div id="titlebar_news" style="position:absolute; border-bottom-color: #FFFFFF;border-bottom-style: solid;border-bottom-width: thin; background:#4455aa;overflow:hidden;visibility:hidden;"><span style="position:relative;left:2px;top:0px;padding:0px;color:white;font-weight:bold;font-size:10px;font-family:Verdana,Geneva,sans-serif;">&nbsp;News</span></div>
+	<div id="clientarea_news" style="position:absolute;border:1px inset #4455aa;color:white;background:black;overflow:auto;visibility:hidden;">
+		dummy text
+	</div>
+<img name="resizehandle_news" src="winresiz.gif" width="4" height="4" alt="" style="visibility:hidden;">
+<img name="resizebutton_news" src="button_up_outset.gif" width="12" height="10" alt="" style="visibility:hidden;">
+
+<div id="frame_traderoutes" class="frame_traderoutes" style="border:0px outset #ffffff;background:#52ACEA;visibility:hidden;"></div>
+<div id="titlebar_traderoutes" style="position:absolute; border-bottom-color: #FFFFFF;border-bottom-style: solid;border-bottom-width: thin; background:#4455aa;overflow:hidden;visibility:hidden;"><span style="position:relative;left:2px;top:0px;padding:0px;color:white;font-weight:bold;font-size:10px;font-family:Verdana,Geneva,sans-serif;">&nbsp;Traderoutes</span></div>
+	<div id="clientarea_traderoutes" style="position:absolute;border:1px inset #4455aa;color:white;background:black;overflow:auto;visibility:hidden;">
+		dummy text
+	</div>
+<img name="resizehandle_traderoutes" src="winresiz.gif" width="4" height="4" alt="" style="visibility:hidden;">
+<img name="resizebutton_traderoutes" src="button_up_outset.gif" width="12" height="10" alt="" style="visibility:hidden;">
+
+<div id="frame_shoutboxinput" class="frame_shoutboxinput" style="border:0px outset #ffffff;background:#52ACEA;visibility:hidden;"></div>
+<div id="titlebar_shoutboxinput" style="position:absolute; border-bottom-color: #FFFFFF;border-bottom-style: solid;border-bottom-width: thin; background:#4455aa;overflow:hidden;visibility:hidden;"><span style="position:relative;left:2px;top:0px;padding:0px;color:white;font-weight:bold;font-size:10px;font-family:Verdana,Geneva,sans-serif;">&nbsp;Shoutbox Input</span></div>
+	<div id="clientarea_shoutboxinput" style="position:absolute;border:1px inset #4455aa;color:white;background:black;overflow:auto;visibility:hidden;">
+		dummy text
+	</div>
+<img name="resizehandle_shoutboxinput" src="winresiz.gif" width="4" height="4" alt="" style="visibility:hidden;">
+<img name="resizebutton_shoutboxinput" src="button_up_outset.gif" width="12" height="10" alt="" style="visibility:hidden;">
+
+<div id="frame_warplinks" class="frame_warplinks" style="border:0px outset #ffffff;background:#52ACEA;visibility:hidden;"></div>
+<div id="titlebar_warplinks" style="position:absolute; border-bottom-color: #FFFFFF;border-bottom-style: solid;border-bottom-width: thin; background:#4455aa;overflow:hidden;visibility:hidden;"><span style="position:relative;left:2px;top:0px;padding:0px;color:white;font-weight:bold;font-size:10px;font-family:Verdana,Geneva,sans-serif;">&nbsp;Warp Links</span></div>
+	<div id="clientarea_warplinks" style="position:absolute;border:1px inset #4455aa;color:white;background:black;overflow:auto;visibility:hidden;">
+		dummy text
+	</div>
+<img name="resizehandle_warplinks" src="winresiz.gif" width="4" height="4" alt="" style="visibility:hidden;">
+<img name="resizebutton_warplinks" src="button_up_outset.gif" width="12" height="10" alt="" style="visibility:hidden;">
+
+<div id="frame_realspace" class="frame_realspace" style="border:0px outset #ffffff;background:#52ACEA;visibility:hidden;"></div>
+<div id="titlebar_realspace" style="position:absolute; border-bottom-color: #FFFFFF;border-bottom-style: solid;border-bottom-width: thin; background:#4455aa;overflow:hidden;visibility:hidden;"><span style="position:relative;left:2px;top:0px;padding:0px;color:white;font-weight:bold;font-size:10px;font-family:Verdana,Geneva,sans-serif;">&nbsp;Realspace Links</span></div>
+	<div id="clientarea_realspace" style="position:absolute;border:1px inset #4455aa;color:white;background:black;overflow:auto;visibility:hidden;">
+		dummy text
+	</div>
+<img name="resizehandle_realspace" src="winresiz.gif" width="4" height="4" alt="" style="visibility:hidden;">
+<img name="resizebutton_realspace" src="button_up_outset.gif" width="12" height="10" alt="" style="visibility:hidden;">
+
+<div id="frame_mininav" class="frame_mininav" style="border:0px outset #ffffff;background:#52ACEA;visibility:hidden;"></div>
+<div id="titlebar_mininav" style="position:absolute; border-bottom-color: #FFFFFF;border-bottom-style: solid;border-bottom-width: thin; background:#4455aa;overflow:hidden;visibility:hidden;"><span style="position:relative;left:2px;top:0px;padding:0px;color:white;font-weight:bold;font-size:10px;font-family:Verdana,Geneva,sans-serif;">&nbsp;Mini-Nav</span></div>
+	<div id="clientarea_mininav" style="position:absolute;border:1px inset #4455aa;color:white;background:black;overflow:auto;visibility:hidden;">
+		dummy text
+	</div>
+<img name="resizehandle_mininav" src="winresiz.gif" width="4" height="4" alt="" style="visibility:hidden;">
+<img name="resizebutton_mininav" src="button_up_outset.gif" width="12" height="10" alt="" style="visibility:hidden;">
+
+<div id="frame_commands" class="frame_commands" style="border:0px outset #ffffff;background:#52ACEA;visibility:hidden;"></div>
+<div id="titlebar_commands" style="position:absolute; border-bottom-color: #FFFFFF;border-bottom-style: solid;border-bottom-width: thin; background:#4455aa;overflow:hidden;visibility:hidden;"><span style="position:relative;left:2px;top:0px;padding:0px;color:white;font-weight:bold;font-size:10px;font-family:Verdana,Geneva,sans-serif;">&nbsp;Commands</span></div>
+	<div id="clientarea_commands" style="position:absolute;border:1px inset #4455aa;color:white;background:black;overflow:auto;visibility:hidden;">
+		dummy text
+	</div>
+<img name="resizehandle_commands" src="winresiz.gif" width="4" height="4" alt="" style="visibility:hidden;">
+<img name="resizebutton_commands" src="button_up_outset.gif" width="12" height="10" alt="" style="visibility:hidden;">
+
+<div id="frame_planet_display" class="frame_planet_display" style="border:0px outset #ffffff;background:#52ACEA;visibility:hidden;"></div>
+<div id="titlebar_planet_display" style="position:absolute; border-bottom-color: #FFFFFF;border-bottom-style: solid;border-bottom-width: thin; background:#4455aa;overflow:hidden;visibility:hidden;"><span style="position:relative;left:2px;top:0px;padding:0px;color:white;font-weight:bold;font-size:10px;font-family:Verdana,Geneva,sans-serif;">&nbsp;Planet Display</span></div>
+	<div id="clientarea_planet_display" style="position:absolute;border:1px inset #4455aa;color:white;background:black;overflow:auto;visibility:hidden;">
+		dummy text
+	</div>
+<img name="resizehandle_planet_display" src="winresiz.gif" width="4" height="4" alt="" style="visibility:hidden;">
+<img name="resizebutton_planet_display" src="button_up_outset.gif" width="12" height="10" alt="" style="visibility:hidden;">
+
+<div id="frame_enemy_display" class="frame_enemy_display" style="border:0px outset #ffffff;background:#52ACEA;visibility:hidden;"></div>
+<div id="titlebar_enemy_display" style="position:absolute; border-bottom-color: #FFFFFF;border-bottom-style: solid;border-bottom-width: thin; background:#4455aa;overflow:hidden;visibility:hidden;"><span style="position:relative;left:2px;top:0px;padding:0px;color:white;font-weight:bold;font-size:10px;font-family:Verdana,Geneva,sans-serif;">&nbsp;Enemy Display</span></div>
+	<div id="clientarea_enemy_display" style="position:absolute;border:1px inset #4455aa;color:white;background:black;overflow:auto;visibility:hidden;">
+		dummy text
+	</div>
+<img name="resizehandle_enemy_display" src="winresiz.gif" width="4" height="4" alt="" style="visibility:hidden;">
+<img name="resizebutton_enemy_display" src="button_up_outset.gif" width="12" height="10" alt="" style="visibility:hidden;">
+
+<div id="frame_sectordefense_display" class="frame_sectordefense_display" style="border:0px outset #ffffff;background:#52ACEA;visibility:hidden;"></div>
+<div id="titlebar_sectordefense_display" style="position:absolute; border-bottom-color: #FFFFFF;border-bottom-style: solid;border-bottom-width: thin; background:#4455aa;overflow:hidden;visibility:hidden;"><span style="position:relative;left:2px;top:0px;padding:0px;color:white;font-weight:bold;font-size:10px;font-family:Verdana,Geneva,sans-serif;">&nbsp;Sector Defenses</span></div>
+	<div id="clientarea_sectordefense_display" style="position:absolute;border:1px inset #4455aa;color:white;background:black;overflow:auto;visibility:hidden;">
+		dummy text
+	</div>
+<img name="resizehandle_sectordefense_display" src="winresiz.gif" width="4" height="4" alt="" style="visibility:hidden;">
+<img name="resizebutton_sectordefense_display" src="button_up_outset.gif" width="12" height="10" alt="" style="visibility:hidden;">
+
+<style type="text/css">
+<!--
+#footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	position: absolute;
+	bottom: 0px;
+	z-index: 1000;
+	color: #ffffff;
+	background: #222222;
+	border-bottom-color: #FFFFFF;
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+	border-top-color: #FFFFFF;
+	border-top-style: solid;
+	border-top-width: thin;
+	border-left-color: #FFFFFF;
+	border-left-style: solid;
+	border-left-width: thin;
+	border-right-color: #FFFFFF;
+	border-right-style: solid;
+	border-right-width: thin;
+	width: 99%;
+	left: 5px;
+}
+}
+-->
+</style>
+
+<div class="footer" id="footer">Content for  class "footer" id "mine" Goes Here</div>
+
+
+<script type="text/javascript">
+<!--
+
+SET_DHTML(
+"titlebar_player"+CURSOR_MOVE+TRANSPARENT, "frame_player"+NO_DRAG, "clientarea_player"+NO_DRAG, "resizehandle_player"+CURSOR_NW_RESIZE, "resizebutton_player"+VERTICAL+HORIZONTAL, 
+"titlebar_cargo"+CURSOR_MOVE+TRANSPARENT, "frame_cargo"+NO_DRAG, "clientarea_cargo"+NO_DRAG, "resizehandle_cargo"+CURSOR_NW_RESIZE, "resizebutton_cargo"+VERTICAL+HORIZONTAL,
+"titlebar_shoutbox"+CURSOR_MOVE+TRANSPARENT, "frame_shoutbox"+NO_DRAG, "clientarea_shoutbox"+NO_DRAG, "resizehandle_shoutbox"+CURSOR_NW_RESIZE, "resizebutton_shoutbox"+VERTICAL+HORIZONTAL,
+"titlebar_news"+CURSOR_MOVE+TRANSPARENT, "frame_news"+NO_DRAG, "clientarea_news"+NO_DRAG, "resizehandle_news"+CURSOR_NW_RESIZE, "resizebutton_news"+VERTICAL+HORIZONTAL,
+"titlebar_traderoutes"+CURSOR_MOVE+TRANSPARENT, "frame_traderoutes"+NO_DRAG, "clientarea_traderoutes"+NO_DRAG, "resizehandle_traderoutes"+CURSOR_NW_RESIZE, "resizebutton_traderoutes"+VERTICAL+HORIZONTAL,
+"titlebar_shoutboxinput"+CURSOR_MOVE+TRANSPARENT, "frame_shoutboxinput"+NO_DRAG, "clientarea_shoutboxinput"+NO_DRAG, "resizehandle_shoutboxinput"+CURSOR_NW_RESIZE, "resizebutton_shoutboxinput"+VERTICAL+HORIZONTAL,
+"titlebar_warplinks"+CURSOR_MOVE+TRANSPARENT, "frame_warplinks"+NO_DRAG, "clientarea_warplinks"+NO_DRAG, "resizehandle_warplinks"+CURSOR_NW_RESIZE, "resizebutton_warplinks"+VERTICAL+HORIZONTAL,
+"titlebar_realspace"+CURSOR_MOVE+TRANSPARENT, "frame_realspace"+NO_DRAG, "clientarea_realspace"+NO_DRAG, "resizehandle_realspace"+CURSOR_NW_RESIZE, "resizebutton_realspace"+VERTICAL+HORIZONTAL,
+"titlebar_mininav"+CURSOR_MOVE+TRANSPARENT, "frame_mininav"+NO_DRAG, "clientarea_mininav"+NO_DRAG, "resizehandle_mininav"+CURSOR_NW_RESIZE, "resizebutton_mininav"+VERTICAL+HORIZONTAL,
+"titlebar_commands"+CURSOR_MOVE+TRANSPARENT, "frame_commands"+NO_DRAG, "clientarea_commands"+NO_DRAG, "resizehandle_commands"+CURSOR_NW_RESIZE, "resizebutton_commands"+VERTICAL+HORIZONTAL,
+"titlebar_planet_display"+CURSOR_MOVE+TRANSPARENT, "frame_planet_display"+NO_DRAG, "clientarea_planet_display"+NO_DRAG, "resizehandle_planet_display"+CURSOR_NW_RESIZE, "resizebutton_planet_display"+VERTICAL+HORIZONTAL,
+"titlebar_enemy_display"+CURSOR_MOVE+TRANSPARENT, "frame_enemy_display"+NO_DRAG, "clientarea_enemy_display"+NO_DRAG, "resizehandle_enemy_display"+CURSOR_NW_RESIZE, "resizebutton_enemy_display"+VERTICAL+HORIZONTAL,
+"titlebar_sectordefense_display"+CURSOR_MOVE+TRANSPARENT, "frame_sectordefense_display"+NO_DRAG, "clientarea_sectordefense_display"+NO_DRAG, "resizehandle_sectordefense_display"+MAXOFFLEFT+210+MAXOFFTOP+90+CURSOR_NW_RESIZE, "resizebutton_sectordefense_display"+VERTICAL+HORIZONTAL
+);
+
+// Some vars to customize window:
+var frame_padding = 0;
+var titlebar_h = 13;
+var toolbar_h = 0;
+var statusbar_h = 4;
+var clientarea_margin = 0;
+
+// preload button images to ensure un-delayed image swapping	
+var button_down_outset = new Image();
+var button_down_inset = new Image();
+var button_up_outset = new Image();
+var button_up_inset = new Image();
+button_down_outset.src = 'button_down_outset.gif';
+button_down_inset.src = 'button_down_inset.gif';
+button_up_outset.src = 'button_up_outset.gif';
+button_up_inset.src = 'button_up_inset.gif';
+
+// to save window height when window is minimized
+var last_window_h;
+
+var clientarea_name;
+var resizehandle_name;
+var frame_name;
+var titlebar_name;
+var resizebutton_name;
+var check_name;
+var fill_name;
+
+// initWindow() moves elements to their adequate locations
+// and builds coherences between these elements by converting outer frame, client area and images for resize functionalities
+// to 'childern' of the draggable titlebar 
+function initWindow()
+{
+	fill_name = '_cargo';
+	_initWindow();
+
+	fill_name = '_player';
+	_initWindow();
+
+	fill_name = '_shoutbox';
+	_initWindow();
+
+	fill_name = '_news';
+	_initWindow();
+
+	fill_name = '_traderoutes';
+	_initWindow();
+
+	fill_name = '_shoutboxinput';
+	_initWindow();
+
+	fill_name = '_warplinks';
+	_initWindow();
+
+	fill_name = '_realspace';
+	_initWindow();
+
+	fill_name = '_mininav';
+	_initWindow();
+
+	fill_name = '_commands';
+	_initWindow();
+
+	fill_name = '_planet_display';
+	_initWindow();
+
+	fill_name = '_enemy_display';
+	_initWindow();
+
+	fill_name = '_sectordefense_display';
+	_initWindow();
+}
+
+function _initWindow()
+{
+	clientarea_name = 'clientarea' + fill_name;
+	resizehandle_name = 'resizehandle' + fill_name;
+	frame_name = 'frame' + fill_name;
+	titlebar_name = 'titlebar' + fill_name;
+	resizebutton_name = 'resizebutton' + fill_name;
+
+	dd.elements[titlebar_name].moveTo(dd.elements[frame_name].x+2+frame_padding, dd.elements[frame_name].y+2+frame_padding);
+	dd.elements[titlebar_name].addChild(frame_name);
+	dd.elements[titlebar_name].setZ(dd.elements[frame_name].z+1); // ensure that titlebar is floating above frame
+	dd.elements[titlebar_name].resizeTo(dd.elements[frame_name].w-4-(frame_padding<<1), titlebar_h);
+
+	dd.elements[clientarea_name].moveTo(dd.elements[frame_name].x+2+frame_padding+clientarea_margin, dd.elements[titlebar_name].y+titlebar_h+toolbar_h+clientarea_margin);
+	dd.elements[titlebar_name].addChild(clientarea_name);
+	dd.elements[clientarea_name].resizeTo(dd.elements[frame_name].w-4-(frame_padding<<1)-(clientarea_margin<<1), dd.elements[frame_name].h-titlebar_h-toolbar_h-statusbar_h-4-(frame_padding<<1)-clientarea_margin);
+
+	dd.elements[resizehandle_name].moveTo(dd.elements[frame_name].x+dd.elements[frame_name].w-dd.elements[resizehandle_name].w-2, dd.elements[frame_name].y+dd.elements[frame_name].h-dd.elements[resizehandle_name].h-2);
+	dd.elements[resizebutton_name].moveTo(dd.elements[titlebar_name].x+dd.elements[titlebar_name].w-dd.elements[resizebutton_name].w-frame_padding-(titlebar_h>>1)+Math.round(dd.elements[resizebutton_name].w/2), dd.elements[titlebar_name].y+Math.round(titlebar_h/2)-Math.round(dd.elements[resizebutton_name].h/2));
+	dd.elements[titlebar_name].addChild(resizebutton_name);
+	dd.elements[titlebar_name].addChild(resizehandle_name);
+	
+	dd.elements[titlebar_name].show();
+}
+
+initWindow();
+
+var old_frame_name;
+var old_x;
+var old_y;
+var old_w;
+var old_h;
+var old_visible;
+
+// my_PickFunc, my_DragFunc and my_DropFunc override their namesakes in wz_dragdrop.js
+function my_PickFunc()
+{
+
+	check_name = dd.obj.name.substring(0,12);
+	fill_name = dd.obj.name.substring(12);
+
+	check_name2 = dd.obj.name.substring(0,8);
+	fill_name2 = dd.obj.name.substring(8);
+
+	if (check_name == "resizebutton")
+	{
+		clientarea_name = 'clientarea' + fill_name;
+		old_frame_name = 'frame' + fill_name;
+		dd.obj.swapImage(dd.elements[clientarea_name].visible? button_up_inset.src : button_down_inset.src);
+	}
+	else if (check_name == "resizehandle")
+	{
+		clientarea_name = 'clientarea' + fill_name;
+		old_frame_name = 'frame' + fill_name;
+	}
+	else if (check_name2 == "titlebar")
+	{
+		clientarea_name = 'clientarea' + fill_name2;
+		old_frame_name = 'frame' + fill_name2;
+	}
+
+	old_x = dd.elements[old_frame_name].x;
+	old_y = dd.elements[old_frame_name].y;
+	old_w = dd.elements[old_frame_name].w;
+	old_h = dd.elements[old_frame_name].h;
+	old_visible = dd.elements[clientarea_name].visible;
+
+}
+
+function my_DragFunc()
+{
+	check_name = dd.obj.name.substring(0,12);
+	fill_name = dd.obj.name.substring(12);
+
+	if (check_name == "resizehandle")
+	{
+		clientarea_name = 'clientarea' + fill_name;
+		resizebutton_name = 'resizebutton' + fill_name;
+		frame_name = 'frame' + fill_name;
+		titlebar_name = 'titlebar' + fill_name;
+
+		dd.elements[frame_name].resizeTo(dd.obj.x-dd.elements[frame_name].x+dd.obj.w+2, dd.obj.y-dd.elements[frame_name].y+dd.obj.h+2);
+		dd.elements[titlebar_name].resizeTo(dd.obj.x-dd.elements[titlebar_name].x+dd.obj.w-frame_padding, titlebar_h);
+		dd.elements[clientarea_name].resizeTo(dd.elements[frame_name].w-4-(frame_padding<<1)-(clientarea_margin<<1), dd.elements[frame_name].h-titlebar_h-toolbar_h-statusbar_h-4-(frame_padding<<1)-clientarea_margin);
+		dd.elements[resizebutton_name].moveTo(dd.elements[titlebar_name].x+dd.elements[titlebar_name].w-dd.elements[resizebutton_name].w-frame_padding-(titlebar_h>>1)+Math.round(dd.elements[resizebutton_name].w/2), dd.elements[resizebutton_name].y);
+	}
+}
+
+
+function my_DropFunc()
+{
+	check_name = dd.obj.name.substring(0,12);
+	fill_name = dd.obj.name.substring(12);
+
+	// Open or close window
+	if (check_name == "resizebutton")
+	{
+		clientarea_name = 'clientarea' + fill_name;
+		resizehandle_name = 'resizehandle' + fill_name;
+		frame_name = 'frame' + fill_name;
+
+		if (dd.elements[clientarea_name].visible)
+		{
+			dd.obj.swapImage(button_down_outset.src);
+			dd.elements[clientarea_name].hide();
+			dd.elements[resizehandle_name].hide();
+			last_window_h = dd.elements[frame_name].h;
+			dd.elements[frame_name].resizeTo(dd.elements[frame_name].w, titlebar_h+(frame_padding<<1)+4);
+		}
+		else
+		{
+			dd.obj.swapImage(button_up_outset.src);
+			dd.elements[clientarea_name].show();
+			dd.elements[resizehandle_name].show();
+			dd.elements[frame_name].resizeTo(dd.elements[frame_name].w, last_window_h);
+		}
+//		makeRequest();
+	}
+	
+	// check if window has been resized
+	if (check_name == "resizehandle")
+	{
+		clientarea_name = 'clientarea' + fill_name;
+		frame_name = 'frame' + fill_name;
+		makeRequest();
+	}
+
+	check_name = dd.obj.name.substring(0,8);
+	fill_name = dd.obj.name.substring(8);
+
+	// check if window has been moved
+	if (check_name == "titlebar")
+	{
+		clientarea_name = 'clientarea' + fill_name;
+		frame_name = 'frame' + fill_name;
+		makeRequest();
+	}
+}
+
+
+var xmlDoc = null ;
+
+function makeRequest()
+{
+//document.write(old_frame_name + " " + frame_name);
+	if ( old_frame_name == frame_name )
+	{
+		if ( old_x != dd.elements[frame_name].x || old_y != dd.elements[frame_name].y || old_w != dd.elements[frame_name].w || old_h != dd.elements[frame_name].h || old_visible != dd.elements[clientarea_name].visible )
+		{
+			if ( xmlDoc == null )
+			{
+				if (typeof window.ActiveXObject != 'undefined' ) {
+					xmlDoc = new ActiveXObject("Microsoft.XMLHTTP");
+					xmlDoc.onreadystatechange = process ;
+				}
+				else
+				{
+					xmlDoc = new XMLHttpRequest();
+					xmlDoc.onload = process ;
+				}
+			}
+			xmlDoc.open( "GET", "http://localhost/aatrade/update_template_window.php?frame_name=" + frame_name + "&x=" + dd.elements[frame_name].x + "&y=" + dd.elements[frame_name].y + "&h=" + dd.elements[frame_name].h + "&w=" + dd.elements[frame_name].w + "&visible=" + dd.elements[clientarea_name].visible, true );
+			xmlDoc.send( null );
+		}
+	}
+}
+
+function process() {
+	if ( xmlDoc.readyState != 4 ) return ;
+	document.getElementById("output").value = xmlDoc.responseText ;
+}
+
+//-->
+</script>
+</body>
+</html>

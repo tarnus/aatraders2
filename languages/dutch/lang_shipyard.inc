@@ -1,0 +1,41 @@
+<?php
+$l_shipyard_title = "Scheepswerf";
+$l_planet = "Planeet";
+$l_ship_welcome = "Welkom bij uw Planetaire scheepswerf. Momenteel bieden we deze modellen te koop.";
+$l_ship_class = "Klasse";
+$l_ship_properties = "Klasse-eigenschappen";
+$l_ship_current = "Huidige";
+$l_ship_outstorage = "Get out of opslag";
+$l_ship_storagecost = "Opslagkosten";
+$l_ship_storagewarn = "Zodra u uw Pioneer uit de opslag je verliest degene die u zijn afgegeven op uw eerste schip vernietiging.";
+$l_ship_levels = "Schip Componenten Niveaus";
+$l_ship_min = "Min";
+$l_ship_max = "Max";
+$l_ship_price = "Prijs";
+$l_ship_turns = "Zet op te bouwen";
+$l_ship_purchase = "Kopen";
+$l_ship_stored = "Opgeslagen";
+$l_ship_basehull = "Base Romp:";
+$l_ship_nostoreteamplanet = "U kunt niet opslaan van een schip op een team planeet.";
+
+$l_ship_averagemaxtech = "Gemiddelde Maximum Tech Level:";
+$l_ship_averagenormaltech = "Gemiddelde Normaal Tech Level:";
+$l_ship_averagecurrenttech = "Gemiddelde huidige Tech Level:";
+$l_ship2_buytitle = "Het kopen van een nieuw schip";
+$l_ship2_storetitle = "Scheepswerf Storage Facility";
+$l_ship2_wrongclass = "Verkeerde klasse schip opgegeven";
+$l_ship2_buying = "U koopt:";
+$l_ship2_tradein = "Handel in:";
+$l_ship2_value = "Huidig schepen Waarde:";
+$l_ship2_newvalue = "Nieuwe schepen Waarde:";
+$l_ship2_totalcost = "Totale kosten:";
+$l_ship2_nomoney = "Je hebt niet genoeg credits om dit schip te kopen.";
+$l_ship2_purchase = "Kopen";
+$l_ship2_buynstore = "Koop Nieuw schip en opslaan van oude";
+$l_ship2_nomoney2 = "Je hebt niet genoeg credits om deze transactie te voltooien.";
+$l_ship2_paystorage = "Je hebt verwijderd van uw schip uit de opslagplaats.";
+$l_ship2_turns = "Je hebt tenminste [turns] wendt zich tot het uitvoeren van deze actie";
+$l_ship2_error = "Interne fout. Kan niet vinden schip klasse.";
+$l_ship2_owned = "U heeft al een eigen model van dit schip.";
+$l_ship2_shipbought = "U heeft net kochten een nieuw schip!";
+?>
