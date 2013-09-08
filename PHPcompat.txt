@@ -1,0 +1,1126 @@
+FILE: /home/aatrade_beta/admin/Full_Database_Backup.inc
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 302 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/admin/Full_Database_Restore.inc
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 133 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/admin/Selective_Database_Table_Backup.inc
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 299 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/admin/Selective_Database_Table_Restore.inc
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 134 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/admin/Send_Global_Email_or_Message.inc
+--------------------------------------------------------------------------------
+FOUND 3 ERROR(S) AFFECTING 3 LINE(S)
+--------------------------------------------------------------------------------
+ 101 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+ 105 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+ 108 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/backends/Smarty2/libs/plugins/function.fetch.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 2 WARNING(S) AFFECTING 2 LINE(S)
+--------------------------------------------------------------------------------
+ 184 | WARNING | [PHP 5.3] The use of function split() is discouraged; use
+     |         | preg_split() instead
+ 189 | WARNING | [PHP 5.3] The use of function split() is discouraged; use
+     |         | preg_split() instead
+--------------------------------------------------------------------------------
+
+
+FILE: ...beta/backends/SwiftMail/lib/classes/Swift/ByteStream/FileByteStream.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 2 WARNING(S) AFFECTING 2 LINE(S)
+--------------------------------------------------------------------------------
+ 92 | WARNING | [PHP 5.3] The use of function set_magic_quotes_runtime() is
+    |         | discouraged
+ 97 | WARNING | [PHP 5.3] The use of function set_magic_quotes_runtime() is
+    |         | discouraged
+--------------------------------------------------------------------------------
+
+
+FILE: ...ade_beta/backends/SwiftMail/lib/classes/Swift/KeyCache/DiskKeyCache.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 4 WARNING(S) AFFECTING 4 LINE(S)
+--------------------------------------------------------------------------------
+ 184 | WARNING | [PHP 5.3] The use of function set_magic_quotes_runtime() is
+     |         | discouraged
+ 193 | WARNING | [PHP 5.3] The use of function set_magic_quotes_runtime() is
+     |         | discouraged
+ 212 | WARNING | [PHP 5.3] The use of function set_magic_quotes_runtime() is
+     |         | discouraged
+ 220 | WARNING | [PHP 5.3] The use of function set_magic_quotes_runtime() is
+     |         | discouraged
+--------------------------------------------------------------------------------
+
+
+FILE: .../aatrade_beta/backends/SwiftMail/test-suite/lib/simpletest/detached.php
+--------------------------------------------------------------------------------
+FOUND 3 ERROR(S) AFFECTING 3 LINE(S)
+--------------------------------------------------------------------------------
+ 56 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+ 73 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+ 75 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: ...e/aatrade_beta/backends/SwiftMail/test-suite/lib/simpletest/eclipse.php
+--------------------------------------------------------------------------------
+FOUND 2 ERROR(S) AFFECTING 2 LINE(S)
+--------------------------------------------------------------------------------
+ 56 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+ 67 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: ...home/aatrade_beta/backends/SwiftMail/test-suite/lib/simpletest/http.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 3 WARNING(S) AFFECTING 3 LINE(S)
+--------------------------------------------------------------------------------
+ 320 | WARNING | [PHP 5.3] The use of function split() is discouraged; use
+     |         | preg_split() instead
+ 461 | WARNING | [PHP 5.3] The use of function split() is discouraged; use
+     |         | preg_split() instead
+ 528 | WARNING | [PHP 5.3] The use of function split() is discouraged; use
+     |         | preg_split() instead
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/backends/SwiftMail/test-suite/lib/simpletest/url.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 2 WARNING(S) AFFECTING 2 LINE(S)
+--------------------------------------------------------------------------------
+ 123 | WARNING | [PHP 5.3] The use of function split() is discouraged; use
+     |         | preg_split() instead
+ 201 | WARNING | [PHP 5.3] The use of function split() is discouraged; use
+     |         | preg_split() instead
+--------------------------------------------------------------------------------
+
+
+FILE: ...atrade_beta/backends/SwiftMail/test-suite/lib/simpletest/web_tester.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 2 WARNING(S) AFFECTING 2 LINE(S)
+--------------------------------------------------------------------------------
+ 193 | WARNING | [PHP 5.3] The use of function split() is discouraged; use
+     |         | preg_split() instead
+ 209 | WARNING | [PHP 5.3] The use of function split() is discouraged; use
+     |         | preg_split() instead
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/backends/SwiftMailer/lib/EasySwift.php
+--------------------------------------------------------------------------------
+FOUND 4 ERROR(S) AFFECTING 4 LINE(S)
+--------------------------------------------------------------------------------
+ 119 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+ 230 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+ 300 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+ 481 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/backends/SwiftMailer/lib/Swift.php
+--------------------------------------------------------------------------------
+FOUND 7 ERROR(S) AND 1 WARNING(S) AFFECTING 8 LINE(S)
+--------------------------------------------------------------------------------
+ 304 | WARNING | [PHP 5.3] The use of function split() is discouraged; use
+     |         | preg_split() instead
+ 324 | ERROR   | [PHP 5.3] Assigning the return value of new by reference is
+     |         | deprecated in PHP 5.3
+ 336 | ERROR   | [PHP 5.3] Assigning the return value of new by reference is
+     |         | deprecated in PHP 5.3
+ 374 | ERROR   | [PHP 5.3] Assigning the return value of new by reference is
+     |         | deprecated in PHP 5.3
+ 385 | ERROR   | [PHP 5.3] Assigning the return value of new by reference is
+     |         | deprecated in PHP 5.3
+ 404 | ERROR   | [PHP 5.3] Assigning the return value of new by reference is
+     |         | deprecated in PHP 5.3
+ 409 | ERROR   | [PHP 5.3] Assigning the return value of new by reference is
+     |         | deprecated in PHP 5.3
+ 557 | ERROR   | [PHP 5.3] Assigning the return value of new by reference is
+     |         | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: ...atrade_beta/backends/SwiftMailer/lib/Swift/Authenticator/@PopB4Smtp.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 36 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/backends/SwiftMailer/lib/Swift/Cache.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 52 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/backends/SwiftMailer/lib/Swift/CacheFactory.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 40 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: ...e/aatrade_beta/backends/SwiftMailer/lib/Swift/Connection/NativeMail.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 53 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/backends/SwiftMailer/lib/Swift/File.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 6 WARNING(S) AFFECTING 6 LINE(S)
+--------------------------------------------------------------------------------
+ 140 | WARNING | [PHP 5.3] The use of function set_magic_quotes_runtime() is
+     |         | discouraged
+ 148 | WARNING | [PHP 5.3] The use of function set_magic_quotes_runtime() is
+     |         | discouraged
+ 160 | WARNING | [PHP 5.3] The use of function set_magic_quotes_runtime() is
+     |         | discouraged
+ 162 | WARNING | [PHP 5.3] The use of function set_magic_quotes_runtime() is
+     |         | discouraged
+ 173 | WARNING | [PHP 5.3] The use of function set_magic_quotes_runtime() is
+     |         | discouraged
+ 181 | WARNING | [PHP 5.3] The use of function set_magic_quotes_runtime() is
+     |         | discouraged
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/backends/SwiftMailer/lib/Swift/Message.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 616 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/backends/SwiftMailer/lib/Swift/Message/Mime.php
+--------------------------------------------------------------------------------
+FOUND 2 ERROR(S) AFFECTING 2 LINE(S)
+--------------------------------------------------------------------------------
+ 104 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+ 489 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/backends/SwiftMailer/lib/Swift/Plugin/Decorator.php
+--------------------------------------------------------------------------------
+FOUND 2 ERROR(S) AFFECTING 2 LINE(S)
+--------------------------------------------------------------------------------
+ 238 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+ 242 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: ...ome/aatrade_beta/backends/SwiftMailer/lib/Swift/Plugin/FileEmbedder.php
+--------------------------------------------------------------------------------
+FOUND 2 ERROR(S) AND 2 WARNING(S) AFFECTING 4 LINE(S)
+--------------------------------------------------------------------------------
+ 338 | WARNING | [PHP 5.3] The use of function set_magic_quotes_runtime() is
+     |         | discouraged
+ 340 | WARNING | [PHP 5.3] The use of function set_magic_quotes_runtime() is
+     |         | discouraged
+ 346 | ERROR   | [PHP 5.3] Assigning the return value of new by reference is
+     |         | deprecated in PHP 5.3
+ 383 | ERROR   | [PHP 5.3] Assigning the return value of new by reference is
+     |         | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/backends/SwiftMailer/lib/Swift/RecipientList.php
+--------------------------------------------------------------------------------
+FOUND 2 ERROR(S) AFFECTING 2 LINE(S)
+--------------------------------------------------------------------------------
+  67 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+ 108 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/backends/adodb_lite/adodb-datadict.inc.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 431 | WARNING | [PHP 5.3] The use of function split() is discouraged; use
+     |         | preg_split() instead
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/backends/adodb_lite/adodb-perf-module.inc.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 1 | WARNING | File has mixed line endings; this may cause incorrect results
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/backends/adodb_lite/adodb-perf.inc.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 3 WARNING(S) AFFECTING 3 LINE(S)
+--------------------------------------------------------------------------------
+  1 | WARNING | File has mixed line endings; this may cause incorrect results
+ 77 | WARNING | [PHP 5.3] The use of function split() is discouraged; use
+    |         | preg_split() instead
+ 80 | WARNING | [PHP 5.3] The use of function split() is discouraged; use
+    |         | preg_split() instead
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/backends/adodb_lite/adodb-xmlschema.inc.php
+--------------------------------------------------------------------------------
+FOUND 2 ERROR(S) AND 2 WARNING(S) AFFECTING 4 LINE(S)
+--------------------------------------------------------------------------------
+  353 | ERROR   | [PHP 5.3] Assigning the return value of new by reference is
+      |         | deprecated in PHP 5.3
+  365 | ERROR   | [PHP 5.3] Assigning the return value of new by reference is
+      |         | deprecated in PHP 5.3
+ 1291 | WARNING | [PHP 5.3] The use of function set_magic_quotes_runtime() is
+      |         | discouraged
+ 2311 | WARNING | [PHP 5.3] The use of function set_magic_quotes_runtime() is
+      |         | discouraged
+--------------------------------------------------------------------------------
+
+
+FILE: ...eta/backends/adodb_lite/adodbSQL_drivers/_generic/mysql_meta_module.inc
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 73 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: ...atrade_beta/backends/adodb_lite/adodbSQL_drivers/fbsql/fbsql_driver.inc
+--------------------------------------------------------------------------------
+FOUND 20 ERROR(S) AFFECTING 20 LINE(S)
+--------------------------------------------------------------------------------
+  38 | ERROR | [PHP 5.3] Extension 'fbsql' is not available in PHP 5.3 anymore
+  42 | ERROR | [PHP 5.3] Extension 'fbsql' is not available in PHP 5.3 anymore
+  83 | ERROR | [PHP 5.3] Extension 'fbsql' is not available in PHP 5.3 anymore
+  89 | ERROR | [PHP 5.3] Extension 'fbsql' is not available in PHP 5.3 anymore
+  93 | ERROR | [PHP 5.3] Extension 'fbsql' is not available in PHP 5.3 anymore
+ 117 | ERROR | [PHP 5.3] Extension 'fbsql' is not available in PHP 5.3 anymore
+ 129 | ERROR | [PHP 5.3] Extension 'fbsql' is not available in PHP 5.3 anymore
+ 141 | ERROR | [PHP 5.3] Extension 'fbsql' is not available in PHP 5.3 anymore
+ 153 | ERROR | [PHP 5.3] Extension 'fbsql' is not available in PHP 5.3 anymore
+ 213 | ERROR | [PHP 5.3] Extension 'fbsql' is not available in PHP 5.3 anymore
+ 299 | ERROR | [PHP 5.3] Extension 'fbsql' is not available in PHP 5.3 anymore
+ 324 | ERROR | [PHP 5.3] Extension 'fbsql' is not available in PHP 5.3 anymore
+ 364 | ERROR | [PHP 5.3] Extension 'fbsql' is not available in PHP 5.3 anymore
+ 369 | ERROR | [PHP 5.3] Extension 'fbsql' is not available in PHP 5.3 anymore
+ 433 | ERROR | [PHP 5.3] Extension 'fbsql' is not available in PHP 5.3 anymore
+ 490 | ERROR | [PHP 5.3] Extension 'fbsql' is not available in PHP 5.3 anymore
+ 564 | ERROR | [PHP 5.3] Extension 'fbsql' is not available in PHP 5.3 anymore
+ 575 | ERROR | [PHP 5.3] Extension 'fbsql' is not available in PHP 5.3 anymore
+ 637 | ERROR | [PHP 5.3] Extension 'fbsql' is not available in PHP 5.3 anymore
+ 641 | ERROR | [PHP 5.3] Extension 'fbsql' is not available in PHP 5.3 anymore
+--------------------------------------------------------------------------------
+
+
+FILE: ...e_beta/backends/adodb_lite/adodbSQL_drivers/fbsql/fbsql_meta_module.inc
+--------------------------------------------------------------------------------
+FOUND 4 ERROR(S) AFFECTING 4 LINE(S)
+--------------------------------------------------------------------------------
+ 73 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+ 87 | ERROR | [PHP 5.3] Extension 'fbsql' is not available in PHP 5.3 anymore
+ 90 | ERROR | [PHP 5.3] Extension 'fbsql' is not available in PHP 5.3 anymore
+ 92 | ERROR | [PHP 5.3] Extension 'fbsql' is not available in PHP 5.3 anymore
+--------------------------------------------------------------------------------
+
+
+FILE: ...ta/backends/adodb_lite/adodbSQL_drivers/gladius/gladius_meta_module.inc
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 72 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: ...e_beta/backends/adodb_lite/adodbSQL_drivers/maxdb/maxdb_meta_module.inc
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 72 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: .../aatrade_beta/backends/adodb_lite/adodbSQL_drivers/msql/msql_driver.inc
+--------------------------------------------------------------------------------
+FOUND 17 ERROR(S) AFFECTING 17 LINE(S)
+--------------------------------------------------------------------------------
+  38 | ERROR | [PHP 5.3] Extension 'msql' is not available in PHP 5.3 anymore
+  42 | ERROR | [PHP 5.3] Extension 'msql' is not available in PHP 5.3 anymore
+  83 | ERROR | [PHP 5.3] Extension 'msql' is not available in PHP 5.3 anymore
+  97 | ERROR | [PHP 5.3] Extension 'msql' is not available in PHP 5.3 anymore
+ 109 | ERROR | [PHP 5.3] Extension 'msql' is not available in PHP 5.3 anymore
+ 121 | ERROR | [PHP 5.3] Extension 'msql' is not available in PHP 5.3 anymore
+ 187 | ERROR | [PHP 5.3] Extension 'msql' is not available in PHP 5.3 anymore
+ 273 | ERROR | [PHP 5.3] Extension 'msql' is not available in PHP 5.3 anymore
+ 299 | ERROR | [PHP 5.3] Extension 'msql' is not available in PHP 5.3 anymore
+ 339 | ERROR | [PHP 5.3] Extension 'msql' is not available in PHP 5.3 anymore
+ 344 | ERROR | [PHP 5.3] Extension 'msql' is not available in PHP 5.3 anymore
+ 408 | ERROR | [PHP 5.3] Extension 'msql' is not available in PHP 5.3 anymore
+ 465 | ERROR | [PHP 5.3] Extension 'msql' is not available in PHP 5.3 anymore
+ 539 | ERROR | [PHP 5.3] Extension 'msql' is not available in PHP 5.3 anymore
+ 550 | ERROR | [PHP 5.3] Extension 'msql' is not available in PHP 5.3 anymore
+ 612 | ERROR | [PHP 5.3] Extension 'msql' is not available in PHP 5.3 anymore
+ 616 | ERROR | [PHP 5.3] Extension 'msql' is not available in PHP 5.3 anymore
+--------------------------------------------------------------------------------
+
+
+FILE: ...ade_beta/backends/adodb_lite/adodbSQL_drivers/msql/msql_meta_module.inc
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 72 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: ...atrade_beta/backends/adodb_lite/adodbSQL_drivers/mssql/mssql_driver.inc
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 408 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: ...e_beta/backends/adodb_lite/adodbSQL_drivers/mssql/mssql_meta_module.inc
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 118 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: ...de_beta/backends/adodb_lite/adodbSQL_drivers/mssqlpo/mssqlpo_driver.inc
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 407 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: ...ta/backends/adodb_lite/adodbSQL_drivers/mssqlpo/mssqlpo_meta_module.inc
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 118 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: ...beta/backends/adodb_lite/adodbSQL_drivers/mysql/_mysql_cache_module.inc
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 191 | WARNING | [PHP 5.3] INI directive 'safe_mode' is deprecated.
+--------------------------------------------------------------------------------
+
+
+FILE: ...e_beta/backends/adodb_lite/adodbSQL_drivers/mysql/mysql_meta_module.inc
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 105 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: ...eta/backends/adodb_lite/adodbSQL_drivers/mysql/mysql_perfmon_module.inc
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 1 | WARNING | File has mixed line endings; this may cause incorrect results
+--------------------------------------------------------------------------------
+
+
+FILE: ...beta/backends/adodb_lite/adodbSQL_drivers/mysqli/mysqli_meta_module.inc
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 105 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: ...a/backends/adodb_lite/adodbSQL_drivers/mysqli/mysqli_perfmon_module.inc
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 1 | WARNING | File has mixed line endings; this may cause incorrect results
+--------------------------------------------------------------------------------
+
+
+FILE: ...beta/backends/adodb_lite/adodbSQL_drivers/mysqlt/mysqlt_meta_module.inc
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 105 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: ...ade_beta/backends/adodb_lite/adodbSQL_drivers/odbc/odbc_meta_module.inc
+--------------------------------------------------------------------------------
+FOUND 2 ERROR(S) AFFECTING 2 LINE(S)
+--------------------------------------------------------------------------------
+  88 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+ 238 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: ..._beta/backends/adodb_lite/adodbSQL_drivers/postgres/postgres_driver.inc
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 43 | WARNING | [PHP 5.3] The use of function split() is discouraged; use
+    |         | preg_split() instead
+--------------------------------------------------------------------------------
+
+
+FILE: .../backends/adodb_lite/adodbSQL_drivers/postgres/postgres_meta_module.inc
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 93 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: ...a/backends/adodb_lite/adodbSQL_drivers/postgres64/postgres64_driver.inc
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 43 | WARNING | [PHP 5.3] The use of function split() is discouraged; use
+    |         | preg_split() instead
+--------------------------------------------------------------------------------
+
+
+FILE: ...kends/adodb_lite/adodbSQL_drivers/postgres64/postgres64_meta_module.inc
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 93 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: ...eta/backends/adodb_lite/adodbSQL_drivers/postgres7/postgres7_driver.inc
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 44 | WARNING | [PHP 5.3] The use of function split() is discouraged; use
+    |         | preg_split() instead
+--------------------------------------------------------------------------------
+
+
+FILE: ...ackends/adodb_lite/adodbSQL_drivers/postgres7/postgres7_meta_module.inc
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 121 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: ...eta/backends/adodb_lite/adodbSQL_drivers/postgres8/postgres8_driver.inc
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 43 | WARNING | [PHP 5.3] The use of function split() is discouraged; use
+    |         | preg_split() instead
+--------------------------------------------------------------------------------
+
+
+FILE: ...ackends/adodb_lite/adodbSQL_drivers/postgres8/postgres8_meta_module.inc
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 121 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: ...beta/backends/adodb_lite/adodbSQL_drivers/sqlite/sqlite_meta_module.inc
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 72 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: .../backends/adodb_lite/adodbSQL_drivers/sqlitepo/sqlitepo_meta_module.inc
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 72 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: ...beta/backends/adodb_lite/adodbSQL_drivers/sybase/sybase_date_module.inc
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 2 WARNING(S) AFFECTING 2 LINE(S)
+--------------------------------------------------------------------------------
+ 123 | WARNING | [PHP 5.3] The use of function ereg() is discouraged; use
+     |         | preg_match() instead
+ 143 | WARNING | [PHP 5.3] The use of function ereg() is discouraged; use
+     |         | preg_match() instead
+--------------------------------------------------------------------------------
+
+
+FILE: ...rade_beta/backends/adodb_lite/adodbSQL_drivers/sybase/sybase_driver.inc
+--------------------------------------------------------------------------------
+FOUND 20 ERROR(S) AFFECTING 20 LINE(S)
+--------------------------------------------------------------------------------
+  40 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+  44 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+  85 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+  99 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 111 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 125 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 190 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 278 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 303 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 343 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 348 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 361 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+ 448 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 507 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 515 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 591 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 604 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 609 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 673 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 677 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+--------------------------------------------------------------------------------
+
+
+FILE: ...beta/backends/adodb_lite/adodbSQL_drivers/sybase/sybase_meta_module.inc
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 70 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: ...kends/adodb_lite/adodbSQL_drivers/sybase_ase/sybase_ase_date_module.inc
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 2 WARNING(S) AFFECTING 2 LINE(S)
+--------------------------------------------------------------------------------
+ 123 | WARNING | [PHP 5.3] The use of function ereg() is discouraged; use
+     |         | preg_match() instead
+ 143 | WARNING | [PHP 5.3] The use of function ereg() is discouraged; use
+     |         | preg_match() instead
+--------------------------------------------------------------------------------
+
+
+FILE: ...a/backends/adodb_lite/adodbSQL_drivers/sybase_ase/sybase_ase_driver.inc
+--------------------------------------------------------------------------------
+FOUND 20 ERROR(S) AFFECTING 20 LINE(S)
+--------------------------------------------------------------------------------
+  40 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+  44 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+  85 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+  99 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 111 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 125 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 190 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 269 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 294 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 334 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 339 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 352 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+ 439 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 498 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 506 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 582 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 595 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 600 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 664 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+ 668 | ERROR | [PHP 5.3] Extension 'sybase' is not available in PHP 5.3 - use
+     |       | the 'sybase_ct' extension instead
+--------------------------------------------------------------------------------
+
+
+FILE: ...kends/adodb_lite/adodbSQL_drivers/sybase_ase/sybase_ase_meta_module.inc
+--------------------------------------------------------------------------------
+FOUND 2 ERROR(S) AFFECTING 2 LINE(S)
+--------------------------------------------------------------------------------
+  70 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+ 165 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/backends/adodb_lite/session/adodb-encrypt-md5.php
+--------------------------------------------------------------------------------
+FOUND 2 ERROR(S) AFFECTING 2 LINE(S)
+--------------------------------------------------------------------------------
+ 85 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+ 92 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/backends/adodb_lite/session/adodb-encrypt-sha1.php
+--------------------------------------------------------------------------------
+FOUND 2 ERROR(S) AFFECTING 2 LINE(S)
+--------------------------------------------------------------------------------
+ 77 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+ 82 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/backends/adodb_lite/tohtml.inc.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 1 | WARNING | File has mixed line endings; this may cause incorrect results
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/backends/phpfreechat/data/public/ie7/ie7-base64.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 2 WARNING(S) AFFECTING 2 LINE(S)
+--------------------------------------------------------------------------------
+ 2 | WARNING | [PHP 5.3] The use of function split() is discouraged; use
+   |         | preg_split() instead
+ 4 | WARNING | [PHP 5.3] The use of function split() is discouraged; use
+   |         | preg_split() instead
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/backends/phpfreechat/lib/IE7_0_9/ie7-base64.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 2 WARNING(S) AFFECTING 2 LINE(S)
+--------------------------------------------------------------------------------
+ 2 | WARNING | [PHP 5.3] The use of function split() is discouraged; use
+   |         | preg_split() instead
+ 4 | WARNING | [PHP 5.3] The use of function split() is discouraged; use
+   |         | preg_split() instead
+--------------------------------------------------------------------------------
+
+
+FILE: ...home/aatrade_beta/backends/phpfreechat/lib/pear/System/SharedMemory.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 66 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: ...ade_beta/backends/phpfreechat/lib/pear/System/SharedMemory/Memcache.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 87 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: .../backends/phpfreechat/lib/xajax_0.2.3/examples/signup/signup.server.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 83 | WARNING | [PHP 5.3] The use of function eregi() is discouraged; use
+    |         | preg_match() instead
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/backends/phpfreechat/src/pfccommand.class.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 57 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/backends/phpfreechat/src/phpfreechatconfig.class.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 170 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: ...ends/template_lite/demo/compiled/c_32f00c8bdbd937474722fe9ba5af4ef4.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 1 | WARNING | File has mixed line endings; this may cause incorrect results
+--------------------------------------------------------------------------------
+
+
+FILE: ...ends/template_lite/demo/compiled/c_94d83a99e16119e60b95384f570fe41a.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 1 | WARNING | File has mixed line endings; this may cause incorrect results
+--------------------------------------------------------------------------------
+
+
+FILE: ...ends/template_lite/demo/compiled/c_a87911d71cae8a6e5201106a5f4386a1.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 1 | WARNING | File has mixed line endings; this may cause incorrect results
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/config/config.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 124 | WARNING | [PHP 5.3] The use of function ereg_replace() is discouraged;
+     |         | use preg_replace() instead
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/contact_admin_thanks.php
+--------------------------------------------------------------------------------
+FOUND 6 ERROR(S) AFFECTING 6 LINE(S)
+--------------------------------------------------------------------------------
+ 100 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+ 104 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+ 107 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+ 159 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+ 163 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+ 166 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/create_game.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 155 | WARNING | [PHP 5.3] INI directive 'safe_mode' is deprecated.
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/email_player.php
+--------------------------------------------------------------------------------
+FOUND 3 ERROR(S) AFFECTING 3 LINE(S)
+--------------------------------------------------------------------------------
+ 42 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+ 46 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+ 49 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+    |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/feedback.php
+--------------------------------------------------------------------------------
+FOUND 6 ERROR(S) AFFECTING 6 LINE(S)
+--------------------------------------------------------------------------------
+  90 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+  94 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+  97 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+ 108 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+ 112 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+ 115 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/globals/AAT_mbstring.inc
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 8 WARNING(S) AFFECTING 8 LINE(S)
+--------------------------------------------------------------------------------
+ 143 | WARNING | [PHP 5.3] The use of function ereg() is discouraged; use
+     |         | preg_match() instead
+ 147 | WARNING | [PHP 5.3] The use of function ereg() is discouraged; use
+     |         | preg_match() instead
+ 169 | WARNING | [PHP 5.3] The use of function eregi() is discouraged; use
+     |         | preg_match() instead
+ 173 | WARNING | [PHP 5.3] The use of function eregi() is discouraged; use
+     |         | preg_match() instead
+ 186 | WARNING | [PHP 5.3] The use of function ereg_replace() is discouraged;
+     |         | use preg_replace() instead
+ 198 | WARNING | [PHP 5.3] The use of function eregi_replace() is discouraged;
+     |         | use preg_replace() instead
+ 219 | WARNING | [PHP 5.3] The use of function split() is discouraged; use
+     |         | preg_split() instead
+ 223 | WARNING | [PHP 5.3] The use of function split() is discouraged; use
+     |         | preg_split() instead
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/login_process.php
+--------------------------------------------------------------------------------
+FOUND 3 ERROR(S) AFFECTING 3 LINE(S)
+--------------------------------------------------------------------------------
+ 351 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+ 355 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+ 358 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/new_player_process.php
+--------------------------------------------------------------------------------
+FOUND 3 ERROR(S) AFFECTING 3 LINE(S)
+--------------------------------------------------------------------------------
+ 395 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+ 399 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+ 402 | ERROR | [PHP 5.3] Assigning the return value of new by reference is
+     |       | deprecated in PHP 5.3
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/scheduler.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 92 | WARNING | [PHP 5.3] INI directive 'safe_mode' is deprecated.
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/support/log_data/albanian/lang_log.inc
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 1 | WARNING | File has mixed line endings; this may cause incorrect results
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/support/log_data/catalan/lang_log.inc
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 1 | WARNING | File has mixed line endings; this may cause incorrect results
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/support/log_data/danish/lang_log.inc
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 1 | WARNING | File has mixed line endings; this may cause incorrect results
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/support/log_data/dutch/lang_log.inc
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 1 | WARNING | File has mixed line endings; this may cause incorrect results
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/support/log_data/english/lang_log.inc
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 1 | WARNING | File has mixed line endings; this may cause incorrect results
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/support/log_data/estonian/lang_log.inc
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 1 | WARNING | File has mixed line endings; this may cause incorrect results
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/support/log_data/finnish/lang_log.inc
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 1 | WARNING | File has mixed line endings; this may cause incorrect results
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/support/log_data/french/lang_log.inc
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 1 | WARNING | File has mixed line endings; this may cause incorrect results
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/support/log_data/german/lang_log.inc
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 1 | WARNING | File has mixed line endings; this may cause incorrect results
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/support/log_data/indonesian/lang_log.inc
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 1 | WARNING | File has mixed line endings; this may cause incorrect results
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/support/log_data/italian/lang_log.inc
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 1 | WARNING | File has mixed line endings; this may cause incorrect results
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/support/log_data/norwegian/lang_log.inc
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 1 | WARNING | File has mixed line endings; this may cause incorrect results
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/support/log_data/portuguese/lang_log.inc
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 1 | WARNING | File has mixed line endings; this may cause incorrect results
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/support/log_data/spanish/lang_log.inc
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 1 | WARNING | File has mixed line endings; this may cause incorrect results
+--------------------------------------------------------------------------------
+
+
+FILE: /home/aatrade_beta/support/log_data/swedish/lang_log.inc
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 1 | WARNING | File has mixed line endings; this may cause incorrect results
+--------------------------------------------------------------------------------
